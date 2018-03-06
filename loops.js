@@ -6,8 +6,25 @@ function forLoop(array){
     }else{
       array.push(`I am ${i} strange loops.`)
     }
-
-  }
-  console.log(array)
   return array
+}
+
+
+function whileLoop(countdown){
+  while (countdown > 0) {
+  console.log(--countdown)
+}
+return "done"
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+ 
+
+
+function doWhileLoop( 
+  do {
+    array.pop()
+  } while (array.length > 0 && maybeTrue());
 }
